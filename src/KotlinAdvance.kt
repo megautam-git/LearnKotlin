@@ -1,3 +1,6 @@
+import java.util.*
+import kotlin.collections.HashMap
+
 class KotlinAdvance {
     fun learnMap() {
         val list: List<Int> = listOf(1, 4, 2, 7, 13, 6)
@@ -14,10 +17,27 @@ class KotlinAdvance {
             println("element  divisble by 2= ${i}")
         }
     }
+
 }
 
 
 fun main() {
     val kotlinAdvance = KotlinAdvance()
     kotlinAdvance.learnMap()
+    val map= HashMap<Int,String>()
+    map[1]="gautam"
+    map[2]="rohit"
+    map[3]="vishal"
+    map[4]="vishal"
+    for ((roll_no,name) in map){
+        println("roll no $roll_no is $name ")
+    }
+    val map1= TreeMap<Int,String>()
+    map1[1]="gautam"
+    map1[2]="rohit"
+    map1[3]="vishal"
+    map1[4]="vishal"
+    for ((roll_no,name) in map){
+        println("roll no $roll_no is $name ")
+    }
 }
