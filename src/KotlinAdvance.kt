@@ -37,6 +37,11 @@ fun main() {
     map1[2]="rohit"
     map1[3]="vishal"
     map1[4]="vishal"
+    map1[5]="venkat"
+    for ((roll,name) in map1){
+        println("$roll $name")
+    }
+
     for ((roll_no,name) in map){
         println("roll no $roll_no is $name ")
     }

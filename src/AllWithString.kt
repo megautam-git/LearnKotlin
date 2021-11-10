@@ -1,5 +1,6 @@
 class AllWithString{
      var name:String?=null
+
 }
 
 fun main() {
@@ -11,6 +12,7 @@ fun main() {
     println(str.startsWith("G"))
     println(str.isEmpty())
     println(str.substring(0, 5))
+    println(str.replace("1",""))
 
 
 
